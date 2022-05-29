@@ -127,3 +127,6 @@ if startCalculate:
     ax.set_ylabel(y_label)
 
     st.pyplot(fig)
+
+keterangan = st.expander("Cara sitasi web ini")
+keterangan.write("Darmawan, Y.A. (2022). kalkulator-regresi(1.0)[Kode Sumber]. https://share.streamlit.io/yogaag99/kalkulator-regresi/linear_regression.py")
