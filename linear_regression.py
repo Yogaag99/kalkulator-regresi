@@ -129,4 +129,8 @@ if startCalculate:
     st.pyplot(fig)
 
 keterangan = st.expander("Cara sitasi web ini")
-keterangan.write("Darmawan, Y.A. (2022). kalkulator-regresi(1.0)[Kode Sumber]. https://share.streamlit.io/yogaag99/kalkulator-regresi/linear_regression.py")
+keterangan.write('''
+    :point_down: :point_down: :point_down:  
+    Darmawan, Y.A. (2022). kalkulator-regresi(1.0)[Kode Sumber]. https://share.streamlit.io/yogaag99/kalkulator-regresi/linear_regression.py  
+    :point_up_2: :point_up_2: :point_up_2:
+''')
