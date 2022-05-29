@@ -23,9 +23,12 @@ with contoh.container():
     cth_ketik = Image.open('contoh-ketik.PNG')
     st.image(cth_ketik, width=700)
     expander = st.expander('APA MAKSUDNYA ITU?')
-    cth_data = Image.open('contoh-data.PNG')
+    cth_data = pd.DataFrame({
+        x:[0.001, 0.003, 0.005],
+        y:[0.288, 0.424, 0.544]
+    })
     expander.text('Jika punya data seperti ini')
-    expander.image(cth_data, width=300)
+    expander.write(cth_data)
     expander.write('''
         Ketik datanya dengan format sebagai berikut:  
         (data x),(data y)   
